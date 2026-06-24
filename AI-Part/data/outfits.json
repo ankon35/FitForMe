@@ -1,82 +1,14 @@
 [
   {
-    "id": "outfit_20260624_182241_test",
-    "outfit_name": "test",
-    "event_category": "Sports — Domestic",
-    "event": "F1",
-    "prompt": "formal",
-    "final_image_prompt": "Full body fashion photo of a neutral wearing a minimal casual outfit for F1.\nOutfit includes a suitable top, a suitable bottom, appropriate shoes, no outerwear if not needed, minimal accessories if needed.\nColor palette: Neutrals.\nFit: Regular.\nPrice level: Mid-Range.\nThe outfit must be realistic, modern, polished, and event-appropriate.\nBackground: realistic F1 setting.\nHigh-detail professional fashion photography, full body, clean composition, sharp focus.\nUser styling note: formal",
-    "style_mode": "New Style",
-    "source": "Outside",
-    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_182241_test_main.png",
-    "breakdown_items": {
-      "top": "a suitable top",
-      "bottom": "a suitable bottom",
-      "shoes": "appropriate shoes",
-      "outerwear": "no outerwear if not needed",
-      "accessories": "minimal accessories if needed"
-    },
-    "breakdown_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_182241_test_breakdown.png",
-    "wardrobe_references": [],
-    "created_at": "20260624_182241"
-  },
-  {
-    "id": "outfit_20260624_183617_test",
-    "outfit_name": "test",
-    "event_category": "Sports — Domestic",
-    "event": "F1",
-    "prompt": "casual",
-    "final_image_prompt": "Full body fashion photo of a neutral wearing a minimal casual outfit for F1.\nOutfit includes a suitable top, a suitable bottom, appropriate shoes, no outerwear if not needed, minimal accessories if needed.\nColor palette: Neutrals.\nFit: Regular.\nPrice level: Mid-Range.\nThe outfit must be realistic, modern, polished, and event-appropriate.\nBackground: realistic F1 setting.\nHigh-detail professional fashion photography, full body, clean composition, sharp focus.\nUser styling note: casual",
-    "style_mode": "New Style",
-    "source": "Outside",
-    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_183617_test_main.png",
-    "breakdown_items": {
-      "top": "a suitable top",
-      "bottom": "a suitable bottom",
-      "shoes": "appropriate shoes",
-      "outerwear": "no outerwear if not needed",
-      "accessories": "minimal accessories if needed"
-    },
-    "breakdown_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_183617_test_breakdown.png",
-    "wardrobe_references": [],
-    "created_at": "20260624_183617"
-  },
-  {
-    "id": "outfit_20260624_184657_test",
-    "outfit_name": "test",
-    "event_category": "Sports — Domestic",
-    "event": "F1",
-    "prompt": "casual",
-    "final_image_prompt": "Full body fashion photo of a neutral wearing a minimal casual outfit for F1.\nOutfit includes a suitable top, a suitable bottom, appropriate shoes, no outerwear if not needed, minimal accessories if needed.\nColor palette: Neutrals.\nFit: Regular.\nPrice level: Mid-Range.\nThe outfit must be realistic, modern, polished, and event-appropriate.\nBackground: realistic F1 setting.\nHigh-detail professional fashion photography, full body, clean composition, sharp focus.\nUser styling note: casual",
-    "style_mode": "New Style",
-    "source": "Outside",
-    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_184657_test_main.png",
-    "breakdown_items": {
-      "top": "a suitable top",
-      "bottom": "a suitable bottom",
-      "shoes": "appropriate shoes",
-      "outerwear": "no outerwear if not needed",
-      "accessories": "minimal accessories if needed"
-    },
-    "breakdown_images": {
-      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_184657_test_top.png",
-      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_184657_test_bottom.png",
-      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_184657_test_shoes.png",
-      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_184657_test_accessories.png"
-    },
-    "wardrobe_references": [],
-    "created_at": "20260624_184917"
-  },
-  {
-    "id": "outfit_20260624_185810_test",
-    "outfit_name": "test",
+    "id": "outfit_20260624_195115_lollapalooza",
+    "outfit_name": null,
     "event_category": "Music & Entertainment",
-    "event": "Stadium Concerts",
+    "event": "Lollapalooza",
     "prompt": "formal",
-    "final_image_prompt": "Full body fashion photo of a neutral wearing a minimal casual outfit for Stadium Concerts.\nOutfit includes a suitable top, a suitable bottom, appropriate shoes, no outerwear if not needed, minimal accessories if needed.\nColor palette: Neutrals.\nFit: Regular.\nPrice level: Mid-Range.\nThe outfit must be realistic, modern, polished, and event-appropriate.\nBackground: realistic Stadium Concerts setting.\nHigh-detail professional fashion photography, full body, clean composition, sharp focus.\nUser styling note: formal",
+    "final_image_prompt": "Full body fashion photo of a male wearing a Street & Hype outfit for Lollapalooza.\nOutfit includes a suitable top, a suitable bottom, appropriate shoes, no outerwear if not needed, minimal accessories if needed.\nColor palette: Neutrals.\nFit: Tailored.\nPrice level: Affordable.\nThe outfit must be realistic, modern, polished, and event-appropriate.\nBackground: realistic Lollapalooza setting.\nHigh-detail professional fashion photography, full body, clean composition, sharp focus.\nUser styling note: formal",
     "style_mode": "New Style",
     "source": "Outside",
-    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_185810_test_main.png",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_195115_lollapalooza_main.png",
     "breakdown_items": {
       "top": "a suitable top",
       "bottom": "a suitable bottom",
@@ -85,12 +17,65 @@
       "accessories": "minimal accessories if needed"
     },
     "breakdown_images": {
-      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_185810_test_top.png",
-      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_185810_test_bottom.png",
-      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_185810_test_shoes.png",
-      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_185810_test_accessories.png"
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_195115_lollapalooza_top.png",
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_195115_lollapalooza_bottom.png",
+      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_195115_lollapalooza_shoes.png",
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_195115_lollapalooza_accessories.png"
     },
     "wardrobe_references": [],
-    "created_at": "20260624_190422"
+    "created_at": "20260624_195251"
+  },
+  {
+    "id": "outfit_20260624_195839_mardi_gras",
+    "outfit_name": null,
+    "event_category": "Cultural & International",
+    "event": "Mardi Gras",
+    "prompt": "formal",
+    "final_image_prompt": "Full body fashion photo of a male wearing a Street & Hype outfit for Mardi Gras.\nOutfit includes a suitable top, a suitable bottom, appropriate shoes, no outerwear if not needed, minimal accessories if needed.\nColor palette: Neutrals.\nFit: Tailored.\nPrice level: Affordable.\nThe outfit must be realistic, modern, polished, and event-appropriate.\nBackground: realistic Mardi Gras setting.\nHigh-detail professional fashion photography, full body, clean composition, sharp focus.\nUser styling note: formal",
+    "style_mode": "New Style",
+    "source": "Outside",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_195839_mardi_gras_main.png",
+    "breakdown_items": {
+      "top": "a suitable top",
+      "bottom": "a suitable bottom",
+      "shoes": "appropriate shoes",
+      "outerwear": "no outerwear if not needed",
+      "accessories": "minimal accessories if needed"
+    },
+    "breakdown_images": {
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_195839_mardi_gras_top.png",
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_195839_mardi_gras_bottom.png",
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_195839_mardi_gras_accessories.png"
+    },
+    "wardrobe_references": [],
+    "created_at": "20260624_200224"
+  },
+  {
+    "id": "outfit_20260624_195839_mardi_gras_v2",
+    "outfit_name": null,
+    "event_category": "Cultural & International",
+    "event": "Mardi Gras",
+    "prompt": "formal. Changes requested: black shirt",
+    "final_image_prompt": "Full body fashion photo of a male in a modern, polished, and realistic Street & Hype outfit for Mardi Gras. The affordable, tailored ensemble features a black shirt, suitable bottom, and appropriate shoes. Minimal accessories. The color palette is neutral. Set against a realistic Mardi Gras background. High-detail professional fashion photography with clean composition and sharp focus.",
+    "style_mode": "New Style",
+    "source": "Outside",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_195839_mardi_gras_v2_main.png",
+    "breakdown_items": {
+      "top": "a shirt or t-shirt",
+      "bottom": "a suitable bottom",
+      "shoes": "appropriate shoes",
+      "outerwear": "no outerwear if not needed",
+      "accessories": "minimal accessories if needed"
+    },
+    "breakdown_images": {
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_195839_mardi_gras_v2_top.png",
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_195839_mardi_gras_v2_bottom.png",
+      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_195839_mardi_gras_v2_shoes.png",
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260624_195839_mardi_gras_v2_accessories.png"
+    },
+    "wardrobe_references": [],
+    "created_at": "20260624_200900",
+    "regenerated_from": "outfit_20260624_195839_mardi_gras",
+    "regeneration_note": "black shirt"
   }
 ]

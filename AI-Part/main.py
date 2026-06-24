@@ -30,7 +30,7 @@ WARDROBE_FILE = DATA_DIR / "wardrobe.json"
 OUTFITS_FILE = DATA_DIR / "outfits.json"
 
 TEXT_MODEL = "gemini-2.5-flash"
-IMAGE_MODEL = "gemini-2.5-flash-image"
+IMAGE_MODEL = "gemini-3-pro-image"
 
 DEFAULT_PREFERENCES = {
     "gender": "neutral",
@@ -519,35 +519,90 @@ def save_image_bytes(image_bytes, path):
         f.write(image_bytes)
 
 
-def create_breakdown_image(breakdown, save_path, title="Outfit Breakdown"):
-    canvas = Image.new("RGB", (1200, 900), "white")
+def create_breakdown_image(breakdown, save_path, item_image_paths=None, title="Outfit Breakdown"):
+    """
+    Create a clean e-commerce style composite breakdown image.
+    - `breakdown`: dict of item roles to text descriptions
+    - `item_image_paths`: optional dict mapping role -> image path (strings)
+    """
+    # Display settings
+    cols = 3
+    cell_size = 320
+    padding = 40
+    label_height = 40
+
+    keys = [k for k in ["top", "bottom", "shoes", "outerwear", "accessories"] if k in breakdown]
+    items = [(k, breakdown.get(k)) for k in keys]
+    n = len(items)
+    rows = max(1, (n + cols - 1) // cols)
+
+    width = cols * cell_size + (cols + 1) * padding
+    height = 120 + rows * (cell_size + label_height) + (rows + 1) * padding
+
+    canvas = Image.new("RGB", (width, height), "white")
     draw = ImageDraw.Draw(canvas)
     title_font = safe_font(36)
-    body_font = safe_font(26)
+    body_font = safe_font(24)
 
-    draw.text((50, 40), title, fill="black", font=title_font)
+    # Title
+    draw.text((padding, 24), title, fill="black", font=title_font)
 
-    lines = [
-        f"Top: {breakdown.get('top', 'N/A')}",
-        f"Bottom: {breakdown.get('bottom', 'N/A')}",
-        f"Shoes: {breakdown.get('shoes', 'N/A')}",
-        f"Outerwear: {breakdown.get('outerwear', 'N/A')}",
-        f"Accessories: {breakdown.get('accessories', 'N/A')}",
-    ]
+    # Render each item cell
+    for idx, (key, label) in enumerate(items):
+        row = idx // cols
+        col = idx % cols
+        x0 = padding + col * (cell_size + padding)
+        y0 = 120 + padding + row * (cell_size + label_height + padding)
 
-    y = 130
-    for line in lines:
-        draw.text((60, y), line, fill="black", font=body_font)
-        y += 90
+        # Cell background (subtle light gray card)
+        card_rect = [x0, y0, x0 + cell_size, y0 + cell_size]
+        draw.rectangle(card_rect, fill=(250, 250, 250))
 
+        # Try to load image if provided
+        if item_image_paths and key in item_image_paths:
+            try:
+                im = Image.open(item_image_paths[key]).convert("RGBA")
+                # Resize to fit within cell
+                im.thumbnail((cell_size - 32, cell_size - 32), Image.LANCZOS)
+                ix = x0 + (cell_size - im.width) // 2
+                iy = y0 + (cell_size - im.height) // 2
+                # Paste with alpha handling
+                canvas.paste(im, (ix, iy), im)
+            except Exception:
+                # If image load fails, fall back to text only
+                draw.text((x0 + 16, y0 + 16), "Image unavailable", fill="gray", font=body_font)
+        else:
+            # No image: render the label prominently
+            draw.text((x0 + 16, y0 + cell_size // 2 - 12), label or key.title(), fill="black", font=body_font)
+
+        # Draw the item label centered below the cell
+        label_text = (label or key.title()).title()
+        w, h = draw.textsize(label_text, font=body_font)
+        lx = x0 + (cell_size - w) // 2
+        ly = y0 + cell_size + 8
+        draw.text((lx, ly), label_text, fill="black", font=body_font)
+
+    # Save as PNG (white background like e-commerce)
     canvas.save(save_path)
 
 
-def generate_item_image(image_client, item_name, base_prompt="", reference_image_bytes=None):
+def generate_item_image(image_client, item_name, base_prompt="", reference_image_bytes=None, role=None):
     """
     Generate individual clothing item image (product shot style).
     """
-    prompt = f"""
+    # For accessories, constrain the generation to accessory products only
+    if role and role.lower() == "accessories":
+        prompt = f"""
+Studio product shot of {item_name}.
+No human model.
+Clean white background.
+Highly detailed product photography of accessories only (e.g., necklace, chain, bag, sunglasses, watch, belt, bracelet, ring).
+DO NOT generate clothing items such as shirts, pants, dresses, or shoes.
+Focus only on the accessory item.
+{base_prompt}
+""".strip()
+    else:
+        prompt = f"""
 Studio product shot of {item_name}.
 No human model.
 Clean white background.
@@ -600,13 +655,22 @@ def generate_breakdown_images(image_client, breakdown, outfit_id, main_image_byt
     # Generate each breakdown item, sending the main image each time for consistency
     for key, value in to_generate:
         try:
-            img_bytes = generate_item_image(image_client, value, "", reference_image_bytes=main_image_bytes)
+            img_bytes = generate_item_image(image_client, value, "", reference_image_bytes=main_image_bytes, role=key)
             path = OUTFITS_DIR / f"{outfit_id}_{key}.png"
             with open(path, "wb") as f:
                 f.write(img_bytes)
             paths[key] = str(path)
         except Exception as e:
             print(f"Failed to generate {key}: {e}")
+
+    # Create a composite breakdown image (e-commerce style)
+    try:
+        composite_path = OUTFITS_DIR / f"{outfit_id}_breakdown.png"
+        # pass the generated item image paths to the composite maker
+        create_breakdown_image(breakdown, composite_path, item_image_paths=paths, title="Outfit Breakdown")
+        paths["composite"] = str(composite_path)
+    except Exception as e:
+        print(f"Failed to create composite breakdown image: {e}")
 
     return paths
 
