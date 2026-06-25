@@ -397,5 +397,108 @@
     },
     "wardrobe_references": [],
     "created_at": "20260625_145423"
+  },
+  {
+    "id": "outfit_20260625_154555_lollapalooza",
+    "outfit_name": null,
+    "event_category": "Music & Entertainment",
+    "event": "Lollapalooza",
+    "prompt": "casual",
+    "final_image_prompt": "Full body fashion photo of a real, realistic human male model wearing a Street & Hype outfit for Lollapalooza.\nThe model must look like a real person with natural skin textures, not synthetic, not looking like typical AI-generated faces.\nThe model must have a warm, natural, and proper smile (properly smiling, showing positive emotion).\nOutfit includes a suitable top, a suitable bottom, appropriate shoes, no outerwear if not needed, minimal accessories if needed.\nColor palette: Neutrals.\nFit: Tailored.\nPrice level: Affordable.\nThe outfit must be realistic, modern, polished, and event-appropriate.\nBackground: plain solid color or soft gradient blurred color.\nHigh-detail professional fashion photography, full body, clean composition, sharp focus.\nUser styling note: casual",
+    "style_mode": "New Style",
+    "source": "Outside",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_154555_lollapalooza_main.png",
+    "breakdown_items": {
+      "top": "a suitable top",
+      "bottom": "a suitable bottom",
+      "shoes": "appropriate shoes",
+      "outerwear": "no outerwear if not needed",
+      "accessories": "minimal accessories if needed"
+    },
+    "breakdown_images": {
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_154555_lollapalooza_accessories.png",
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_154555_lollapalooza_top.png",
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_154555_lollapalooza_bottom.png",
+      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_154555_lollapalooza_shoes.png"
+    },
+    "wardrobe_references": [],
+    "created_at": "20260625_154615"
+  },
+  {
+    "id": "outfit_20260625_155034_test",
+    "outfit_name": "test",
+    "event_category": "Music & Entertainment",
+    "event": "Stadium Concerts",
+    "prompt": "casual",
+    "final_image_prompt": "Full body fashion photo of a real, realistic human male model wearing a Street & Hype outfit for Stadium Concerts.\nThe model must look like a real person with natural skin textures, not synthetic, not looking like typical AI-generated faces.\nThe model must have a warm, natural, and proper smile (properly smiling, showing positive emotion).\nOutfit includes a suitable top, a suitable bottom, appropriate shoes, no outerwear if not needed, minimal accessories if needed.\nColor palette: Neutrals.\nFit: string.\nPrice level: Affordable.\nThe outfit must be realistic, modern, polished, and event-appropriate.\nBackground: plain solid color or soft gradient blurred color.\nHigh-detail professional fashion photography, full body, clean composition, sharp focus.\nUser styling note: casual",
+    "source": "Outside",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_155034_test_main.png",
+    "breakdown_items": {
+      "top": "a suitable top",
+      "bottom": "a suitable bottom",
+      "shoes": "appropriate shoes",
+      "outerwear": "no outerwear if not needed",
+      "accessories": "minimal accessories if needed"
+    },
+    "breakdown_images": {
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_155034_test_accessories.png",
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_155034_test_bottom.png",
+      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_155034_test_shoes.png",
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_155034_test_top.png"
+    },
+    "wardrobe_references": [],
+    "created_at": "20260625_155052"
+  },
+  {
+    "id": "outfit_20260625_155034_test_v2",
+    "outfit_name": "test",
+    "event_category": "Music & Entertainment",
+    "event": "Stadium Concerts",
+    "prompt": "casual. Changes requested: formal",
+    "final_image_prompt": "Full body fashion photo of a realistic male model wearing a tailored Street & Hype outfit for a Stadium Concert. The model has natural skin textures and a warm, genuine smile. The outfit, in a neutral color palette, includes a suitable top, bottom, and appropriate shoes, with minimal accessories. It is modern, polished, affordable, and perfectly suited for the event. The background is a plain solid or soft gradient blurred color. High-detail professional fashion photography, clean composition, sharp focus.",
+    "source": "Outside",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_155034_test_v2_main.png",
+    "breakdown_items": {
+      "top": "a suitable top",
+      "bottom": "a suitable bottom",
+      "shoes": "appropriate shoes",
+      "outerwear": "no outerwear if not needed",
+      "accessories": "minimal accessories if needed"
+    },
+    "breakdown_images": {
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_155034_test_v2_accessories.png",
+      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_155034_test_v2_shoes.png",
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_155034_test_v2_bottom.png",
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_155034_test_v2_top.png"
+    },
+    "wardrobe_references": [],
+    "created_at": "20260625_155320",
+    "regenerated_from": "outfit_20260625_155034_test",
+    "regeneration_note": "formal"
+  },
+  {
+    "id": "outfit_20260625_162135_test",
+    "outfit_name": "test",
+    "event_category": "Music & Entertainment",
+    "event": "Coachella",
+    "prompt": "casual",
+    "final_image_prompt": "Full body fashion photo of a real, realistic human male model wearing a Street & Hype outfit for Coachella.\nThe model must look like a real person with natural skin textures, not synthetic, not looking like typical AI-generated faces.\nThe model must have a warm, natural, and proper smile (properly smiling, showing positive emotion).\nOutfit includes a suitable top, a suitable bottom, appropriate shoes, no outerwear if not needed, minimal accessories if needed.\nColor palette: Neutrals.\nFit: string.\nPrice level: Affordable.\nThe outfit must be realistic, modern, polished, and event-appropriate.\nBackground: plain solid color or soft gradient blurred color.\nHigh-detail professional fashion photography, full body, clean composition, sharp focus.\nUser styling note: casual",
+    "source": "Outside",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_162135_test_main.png",
+    "breakdown_items": {
+      "top": "a suitable top",
+      "bottom": "a suitable bottom",
+      "shoes": "appropriate shoes",
+      "outerwear": "no outerwear if not needed",
+      "accessories": "minimal accessories if needed"
+    },
+    "breakdown_images": {
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_162135_test_accessories.png",
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_162135_test_top.png",
+      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_162135_test_shoes.png",
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_162135_test_bottom.png"
+    },
+    "wardrobe_references": [],
+    "created_at": "20260625_162154"
   }
 ]
