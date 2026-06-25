@@ -2,6 +2,8 @@ import os
 import json
 import base64
 import shutil
+import concurrent.futures
+import re
 from pathlib import Path
 from datetime import datetime
 from mimetypes import guess_type
@@ -458,7 +460,7 @@ Color palette: {colors}.
 Fit: {data['fit']}.
 Price level: {data['price_level']}.
 The outfit must be realistic, modern, polished, and event-appropriate.
-Background: realistic {data['event']} setting.
+Background: plain solid color or soft gradient blurred color.
 High-detail professional fashion photography, full body, clean composition, sharp focus.
 """.strip()
 
@@ -652,16 +654,25 @@ def generate_breakdown_images(image_client, breakdown, outfit_id, main_image_byt
     for key, value in to_generate:
         print(f"- {key}: {value}")
 
-    # Generate each breakdown item, sending the main image each time for consistency
-    for key, value in to_generate:
+    # Generate each breakdown item concurrently, sending the main image each time for consistency
+    def _generate_and_save(key, value):
         try:
             img_bytes = generate_item_image(image_client, value, "", reference_image_bytes=main_image_bytes, role=key)
             path = OUTFITS_DIR / f"{outfit_id}_{key}.png"
             with open(path, "wb") as f:
                 f.write(img_bytes)
-            paths[key] = str(path)
+            return key, str(path), None
         except Exception as e:
-            print(f"Failed to generate {key}: {e}")
+            return key, None, e
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=len(to_generate)) as executor:
+        futures = {executor.submit(_generate_and_save, k, v): k for k, v in to_generate}
+        for future in concurrent.futures.as_completed(futures):
+            res_key, path, err = future.result()
+            if err:
+                print(f"Failed to generate {res_key}: {err}")
+            else:
+                paths[res_key] = path
 
     # Create a composite breakdown image (e-commerce style)
     try:
@@ -806,7 +817,8 @@ def generate_outfit():
     base_prompt = build_base_prompt(data, breakdown, wardrobe_note=breakdown.get("source_note") if source == "Wardrobe" else None)
 
     llm = load_llm()
-    final_prompt = refine_prompt_with_llm(llm, base_prompt)
+    # Skip LLM refinement to generate the first image as fast as possible
+    final_prompt = base_prompt
 
     print("\n--- FINAL IMAGE PROMPT ---")
     print(final_prompt)
@@ -826,6 +838,9 @@ def generate_outfit():
     outfit_id = f"outfit_{now_stamp()}_{slugify(outfit_name or event)}"
     main_image_path = OUTFITS_DIR / f"{outfit_id}_main.png"
     save_image_bytes(main_bytes, main_image_path)
+    
+    print(f"\n[+] Main image successfully generated and saved at: {main_image_path}")
+    print("Generating breakdown images concurrently...")
 
     # Generate individual breakdown item images (product shots).
     # We pass the main image bytes as a reference so each item matches the generated main image.
@@ -876,6 +891,7 @@ def generate_outfit():
                 regen_breakdown,
                 wardrobe_note=regen_breakdown.get("source_note") if source == "Wardrobe" else None,
             )
+            # Use LLM refinement to merge changes logically for regeneration
             regen_prompt = refine_prompt_with_llm(llm, regen_base_prompt)
 
             try:
@@ -906,10 +922,21 @@ def generate_outfit():
                 )
                 regen_bytes = base64.b64decode(interaction.output_image.data)
 
-                regen_id = f"{outfit_id}_v2"
+                # Compute the next version for the ID (e.g. outfit_xxx_v2, outfit_xxx_v3)
+                import re
+                match = re.search(r"_v(\d+)$", outfit_id)
+                if match:
+                    version = int(match.group(1)) + 1
+                    regen_id = re.sub(r"_v\d+$", f"_v{version}", outfit_id)
+                else:
+                    regen_id = f"{outfit_id}_v2"
+
                 regen_main_path = OUTFITS_DIR / f"{regen_id}_main.png"
 
                 save_image_bytes(regen_bytes, regen_main_path)
+                
+                print(f"\n[+] Regenerated main image successfully saved at: {regen_main_path}")
+                print("Generating breakdown images concurrently...")
 
                 # generate per-item breakdown images for the regenerated outfit
                 try:
@@ -938,10 +965,19 @@ def generate_outfit():
                 print("\nRegenerated outfit saved.")
                 print(f"Main image: {regen_main_path}")
                 print(f"Breakdown images: {regen_breakdown_paths}")
-                return
+
+                # Update state variables for the next loop iteration
+                outfit_id = regen_id
+                main_image_path = regen_main_path
+                user_prompt = regen_data["user_prompt"]
+                data["user_prompt"] = user_prompt
+                breakdown = regen_breakdown
+                breakdown_image_paths = regen_breakdown_paths
+                outfit_record = regen_record
+                main_bytes = regen_bytes
             except Exception as e:
                 print(f"Regeneration failed: {e}")
-                return
+                continue
 
         if choice == "2":
             return

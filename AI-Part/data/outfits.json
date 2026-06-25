@@ -77,5 +77,193 @@
     "created_at": "20260624_200900",
     "regenerated_from": "outfit_20260624_195839_mardi_gras",
     "regeneration_note": "black shirt"
+  },
+  {
+    "id": "outfit_20260625_093158_coachella",
+    "outfit_name": null,
+    "event_category": "Music & Entertainment",
+    "event": "Coachella",
+    "prompt": "casual",
+    "final_image_prompt": "Full body fashion photo of a male wearing a realistic, modern, and polished Street & Hype outfit for Coachella. The casual, tailored look features a suitable top, bottom, and appropriate shoes, all in a neutral color palette. Minimal accessories are included if needed, with no unnecessary outerwear. The outfit is affordable and event-appropriate. Shot in a realistic Coachella setting with high-detail professional fashion photography, full body, clean composition, and sharp focus.",
+    "style_mode": "New Style",
+    "source": "Outside",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_093158_coachella_main.png",
+    "breakdown_items": {
+      "top": "a suitable top",
+      "bottom": "a suitable bottom",
+      "shoes": "appropriate shoes",
+      "outerwear": "no outerwear if not needed",
+      "accessories": "minimal accessories if needed"
+    },
+    "breakdown_images": {
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_093158_coachella_top.png",
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_093158_coachella_bottom.png",
+      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_093158_coachella_shoes.png",
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_093158_coachella_accessories.png"
+    },
+    "wardrobe_references": [],
+    "created_at": "20260625_093351"
+  },
+  {
+    "id": "outfit_20260625_095529_job_interview",
+    "outfit_name": null,
+    "event_category": "Professional & Career",
+    "event": "Job Interview",
+    "prompt": "formal",
+    "final_image_prompt": "Full body fashion photo of a male wearing a modern, polished, and event-appropriate outfit for a Job Interview. The look should blend refined Street & Hype elements with formal interview attire. The outfit, in a neutral color palette, features a tailored top, bottom, and appropriate shoes, with minimal accessories. No outerwear unless essential. The ensemble must be realistic and affordable. Background: realistic Job Interview setting. High-detail professional fashion photography, full body, clean composition, sharp focus.",
+    "style_mode": "New Style",
+    "source": "Outside",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_095529_job_interview_main.png",
+    "breakdown_items": {
+      "top": "a suitable top",
+      "bottom": "a suitable bottom",
+      "shoes": "appropriate shoes",
+      "outerwear": "no outerwear if not needed",
+      "accessories": "minimal accessories if needed"
+    },
+    "breakdown_images": {
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_095529_job_interview_bottom.png",
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_095529_job_interview_accessories.png",
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_095529_job_interview_top.png",
+      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_095529_job_interview_shoes.png"
+    },
+    "wardrobe_references": [],
+    "created_at": "20260625_095559"
+  },
+  {
+    "id": "outfit_20260625_095529_job_interview_v2",
+    "outfit_name": null,
+    "event_category": "Professional & Career",
+    "event": "Job Interview",
+    "prompt": "formal. Changes requested: white",
+    "final_image_prompt": "Full body fashion photo of a male in a modern, polished, and tailored outfit for a job interview. The look should be contemporary, formal, and event-appropriate.\n\nOutfit: Suitable top (e.g., white shirt), suitable bottom, and appropriate shoes. Minimal accessories.\nColor palette: Neutrals, featuring white.\nFit: Tailored. Price level: Affordable.\n\nBackground: Realistic job interview setting.\nPhotography: High-detail professional fashion, full body, clean composition, sharp focus.",
+    "style_mode": "New Style",
+    "source": "Outside",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_095529_job_interview_v2_main.png",
+    "breakdown_items": {
+      "top": "a suitable top",
+      "bottom": "a suitable bottom",
+      "shoes": "appropriate shoes",
+      "outerwear": "no outerwear if not needed",
+      "accessories": "minimal accessories if needed"
+    },
+    "breakdown_images": {
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_095529_job_interview_v2_top.png",
+      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_095529_job_interview_v2_shoes.png",
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_095529_job_interview_v2_bottom.png",
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_095529_job_interview_v2_accessories.png"
+    },
+    "wardrobe_references": [],
+    "created_at": "20260625_095827",
+    "regenerated_from": "outfit_20260625_095529_job_interview",
+    "regeneration_note": "white"
+  },
+  {
+    "id": "outfit_20260625_100458_lollapalooza",
+    "outfit_name": null,
+    "event_category": "Music & Entertainment",
+    "event": "Lollapalooza",
+    "prompt": "casual",
+    "final_image_prompt": "Full body fashion photo of a male wearing a Street & Hype outfit for Lollapalooza.\nOutfit includes a suitable top, a suitable bottom, appropriate shoes, no outerwear if not needed, minimal accessories if needed.\nColor palette: Neutrals.\nFit: Tailored.\nPrice level: Affordable.\nThe outfit must be realistic, modern, polished, and event-appropriate.\nBackground: realistic Lollapalooza setting.\nHigh-detail professional fashion photography, full body, clean composition, sharp focus.\nUser styling note: casual",
+    "style_mode": "New Style",
+    "source": "Outside",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_100458_lollapalooza_main.png",
+    "breakdown_items": {
+      "top": "a suitable top",
+      "bottom": "a suitable bottom",
+      "shoes": "appropriate shoes",
+      "outerwear": "no outerwear if not needed",
+      "accessories": "minimal accessories if needed"
+    },
+    "breakdown_images": {
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_100458_lollapalooza_top.png",
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_100458_lollapalooza_bottom.png",
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_100458_lollapalooza_accessories.png",
+      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_100458_lollapalooza_shoes.png"
+    },
+    "wardrobe_references": [],
+    "created_at": "20260625_100530"
+  },
+  {
+    "id": "outfit_20260625_102444_glastonbury",
+    "outfit_name": null,
+    "event_category": "Music & Entertainment",
+    "event": "Glastonbury",
+    "prompt": "formal",
+    "final_image_prompt": "Full body fashion photo of a male wearing a Street & Hype outfit for Glastonbury.\nOutfit includes a suitable top, a suitable bottom, appropriate shoes, no outerwear if not needed, minimal accessories if needed.\nColor palette: Neutrals.\nFit: Tailored.\nPrice level: Affordable.\nThe outfit must be realistic, modern, polished, and event-appropriate.\nBackground: realistic Glastonbury setting.\nHigh-detail professional fashion photography, full body, clean composition, sharp focus.\nUser styling note: formal",
+    "style_mode": "New Style",
+    "source": "Outside",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_102444_glastonbury_main.png",
+    "breakdown_items": {
+      "top": "a suitable top",
+      "bottom": "a suitable bottom",
+      "shoes": "appropriate shoes",
+      "outerwear": "no outerwear if not needed",
+      "accessories": "minimal accessories if needed"
+    },
+    "breakdown_images": {
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_102444_glastonbury_bottom.png",
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_102444_glastonbury_top.png",
+      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_102444_glastonbury_shoes.png",
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_102444_glastonbury_accessories.png"
+    },
+    "wardrobe_references": [],
+    "created_at": "20260625_102515"
+  },
+  {
+    "id": "outfit_20260625_102444_glastonbury_v2",
+    "outfit_name": null,
+    "event_category": "Music & Entertainment",
+    "event": "Glastonbury",
+    "prompt": "formal. Changes requested: casual",
+    "final_image_prompt": "Full body fashion photo of a male wearing a realistic, modern, and polished Street & Hype outfit, suitable for Glastonbury. The casual ensemble includes a top, bottom, and appropriate shoes, with minimal accessories. The fit should be tailored for a contemporary silhouette, utilizing a neutral color palette. The outfit must be affordable and event-appropriate. Background: authentic Glastonbury festival setting. High-detail professional fashion photography, full body, clean composition, sharp focus.",
+    "style_mode": "New Style",
+    "source": "Outside",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_102444_glastonbury_v2_main.png",
+    "breakdown_items": {
+      "top": "a suitable top",
+      "bottom": "a suitable bottom",
+      "shoes": "appropriate shoes",
+      "outerwear": "no outerwear if not needed",
+      "accessories": "minimal accessories if needed"
+    },
+    "breakdown_images": {
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_102444_glastonbury_v2_top.png",
+      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_102444_glastonbury_v2_shoes.png",
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_102444_glastonbury_v2_accessories.png",
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_102444_glastonbury_v2_bottom.png"
+    },
+    "wardrobe_references": [],
+    "created_at": "20260625_102635",
+    "regenerated_from": "outfit_20260625_102444_glastonbury",
+    "regeneration_note": "casual"
+  },
+  {
+    "id": "outfit_20260625_102444_glastonbury_v3",
+    "outfit_name": null,
+    "event_category": "Music & Entertainment",
+    "event": "Glastonbury",
+    "prompt": "formal. Changes requested: casual. Changes requested: casual",
+    "final_image_prompt": "Full body fashion photo of a male wearing a realistic, modern, and polished Street & Hype outfit for Glastonbury. The casual ensemble includes a suitable top, bottom, and appropriate shoes, with minimal accessories and no unnecessary outerwear. The look features a neutral color palette and a tailored fit, all within an affordable price range. Set against a realistic Glastonbury background. Capture with high-detail professional fashion photography, clean composition, and sharp focus.",
+    "style_mode": "New Style",
+    "source": "Outside",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_102444_glastonbury_v3_main.png",
+    "breakdown_items": {
+      "top": "a suitable top",
+      "bottom": "a suitable bottom",
+      "shoes": "appropriate shoes",
+      "outerwear": "no outerwear if not needed",
+      "accessories": "minimal accessories if needed"
+    },
+    "breakdown_images": {
+      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_102444_glastonbury_v3_shoes.png",
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_102444_glastonbury_v3_top.png",
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_102444_glastonbury_v3_bottom.png",
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_102444_glastonbury_v3_accessories.png"
+    },
+    "wardrobe_references": [],
+    "created_at": "20260625_103329",
+    "regenerated_from": "outfit_20260625_102444_glastonbury_v2",
+    "regeneration_note": "casual"
   }
 ]
