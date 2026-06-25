@@ -32,7 +32,7 @@ WARDROBE_FILE = DATA_DIR / "wardrobe.json"
 OUTFITS_FILE = DATA_DIR / "outfits.json"
 
 TEXT_MODEL = "gemini-2.5-flash"
-IMAGE_MODEL = "gemini-3-pro-image"
+IMAGE_MODEL = "gemini-2.5-flash-image"
 
 DEFAULT_PREFERENCES = {
     "gender": "neutral",
@@ -454,7 +454,9 @@ def build_wardrobe_refs(wardrobe_items, selected_event, prompt, prefs):
 def build_base_prompt(data, breakdown, wardrobe_note=None):
     colors = data["colors"] if isinstance(data["colors"], str) else ", ".join(data["colors"])
     prompt = f"""
-Full body fashion photo of a {data['gender']} wearing a {data['style']} outfit for {data['event']}.
+Full body fashion photo of a real, realistic human {data['gender']} model wearing a {data['style']} outfit for {data['event']}.
+The model must look like a real person with natural skin textures, not synthetic, not looking like typical AI-generated faces.
+The model must have a warm, natural, and proper smile (properly smiling, showing positive emotion).
 Outfit includes {breakdown.get('top', 'a suitable top')}, {breakdown.get('bottom', 'a suitable bottom')}, {breakdown.get('shoes', 'appropriate shoes')}, {breakdown.get('outerwear', 'no outerwear if not needed')}, {breakdown.get('accessories', 'minimal accessories if needed')}.
 Color palette: {colors}.
 Fit: {data['fit']}.
@@ -579,7 +581,12 @@ def create_breakdown_image(breakdown, save_path, item_image_paths=None, title="O
 
         # Draw the item label centered below the cell
         label_text = (label or key.title()).title()
-        w, h = draw.textsize(label_text, font=body_font)
+        try:
+            bbox = draw.textbbox((0, 0), label_text, font=body_font)
+            w = bbox[2] - bbox[0]
+            h = bbox[3] - bbox[1]
+        except AttributeError:
+            w, h = draw.textsize(label_text, font=body_font)
         lx = x0 + (cell_size - w) // 2
         ly = y0 + cell_size + 8
         draw.text((lx, ly), label_text, fill="black", font=body_font)
@@ -595,21 +602,23 @@ def generate_item_image(image_client, item_name, base_prompt="", reference_image
     # For accessories, constrain the generation to accessory products only
     if role and role.lower() == "accessories":
         prompt = f"""
-Studio product shot of {item_name}.
-No human model.
-Clean white background.
-Highly detailed product photography of accessories only (e.g., necklace, chain, bag, sunglasses, watch, belt, bracelet, ring).
+Professional studio product shot of {item_name}.
+Shot in a professional photo studio with soft, diffused studio lighting and clean, realistic soft shadows.
+No human model, item is placed flat or on a subtle professional studio stand.
+Clean, solid, crisp white background.
+Highly detailed commercial product photography of accessories only (e.g., necklace, chain, bag, sunglasses, watch, belt, bracelet, ring).
 DO NOT generate clothing items such as shirts, pants, dresses, or shoes.
-Focus only on the accessory item.
+Focus only on the accessory item with razor-sharp detail and studio-quality rendering.
 {base_prompt}
 """.strip()
     else:
         prompt = f"""
-Studio product shot of {item_name}.
-No human model.
-Clean white background.
-Highly detailed clothing photography.
-Focus only on the item.
+Professional studio product shot of {item_name}.
+Shot in a professional photo studio with soft, diffused studio lighting and clean, realistic soft shadows.
+No human model, clothing item is neatly laid flat or displayed on an invisible mannequin.
+Clean, solid, crisp white background.
+Highly detailed commercial clothing product photography.
+Focus only on the item with razor-sharp detail and studio-quality rendering.
 Keep same style as outfit.
 {base_prompt}
 """.strip()
@@ -675,13 +684,13 @@ def generate_breakdown_images(image_client, breakdown, outfit_id, main_image_byt
                 paths[res_key] = path
 
     # Create a composite breakdown image (e-commerce style)
-    try:
-        composite_path = OUTFITS_DIR / f"{outfit_id}_breakdown.png"
-        # pass the generated item image paths to the composite maker
-        create_breakdown_image(breakdown, composite_path, item_image_paths=paths, title="Outfit Breakdown")
-        paths["composite"] = str(composite_path)
-    except Exception as e:
-        print(f"Failed to create composite breakdown image: {e}")
+    # try:
+    #     composite_path = OUTFITS_DIR / f"{outfit_id}_breakdown.png"
+    #     # pass the generated item image paths to the composite maker
+    #     create_breakdown_image(breakdown, composite_path, item_image_paths=paths, title="Outfit Breakdown")
+    #     paths["composite"] = str(composite_path)
+    # except Exception as e:
+    #     print(f"Failed to create composite breakdown image: {e}")
 
     return paths
 

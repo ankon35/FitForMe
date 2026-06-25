@@ -265,5 +265,137 @@
     "created_at": "20260625_103329",
     "regenerated_from": "outfit_20260625_102444_glastonbury_v2",
     "regeneration_note": "casual"
+  },
+  {
+    "id": "outfit_20260625_142357_glastonbury",
+    "outfit_name": null,
+    "event_category": "Music & Entertainment",
+    "event": "Glastonbury",
+    "prompt": "casual",
+    "final_image_prompt": "Full body fashion photo of a male wearing a Street & Hype outfit for Glastonbury.\nOutfit includes a suitable top, a suitable bottom, appropriate shoes, no outerwear if not needed, minimal accessories if needed.\nColor palette: Neutrals.\nFit: Tailored.\nPrice level: Affordable.\nThe outfit must be realistic, modern, polished, and event-appropriate.\nBackground: realistic Glastonbury setting.\nHigh-detail professional fashion photography, full body, clean composition, sharp focus.\nUser styling note: casual",
+    "style_mode": "New Style",
+    "source": "Outside",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_142357_glastonbury_main.png",
+    "breakdown_items": {
+      "top": "a suitable top",
+      "bottom": "a suitable bottom",
+      "shoes": "appropriate shoes",
+      "outerwear": "no outerwear if not needed",
+      "accessories": "minimal accessories if needed"
+    },
+    "breakdown_images": {
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_142357_glastonbury_bottom.png",
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_142357_glastonbury_top.png",
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_142357_glastonbury_accessories.png",
+      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_142357_glastonbury_shoes.png"
+    },
+    "wardrobe_references": [],
+    "created_at": "20260625_142439"
+  },
+  {
+    "id": "outfit_20260625_142617_glastonbury",
+    "outfit_name": null,
+    "event_category": "Music & Entertainment",
+    "event": "Glastonbury",
+    "prompt": "Casual",
+    "final_image_prompt": "Full body fashion photo of a male wearing a Street & Hype outfit for Glastonbury.\nOutfit includes a suitable top, a suitable bottom, appropriate shoes, no outerwear if not needed, minimal accessories if needed.\nColor palette: Neutrals.\nFit: Tailored.\nPrice level: Affordable.\nThe outfit must be realistic, modern, polished, and event-appropriate.\nBackground: plain solid color or soft gradient blurred color.\nHigh-detail professional fashion photography, full body, clean composition, sharp focus.\nUser styling note: Casual",
+    "style_mode": "New Style",
+    "source": "Outside",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_142617_glastonbury_main.png",
+    "breakdown_items": {
+      "top": "a suitable top",
+      "bottom": "a suitable bottom",
+      "shoes": "appropriate shoes",
+      "outerwear": "no outerwear if not needed",
+      "accessories": "minimal accessories if needed"
+    },
+    "breakdown_images": {
+      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_142617_glastonbury_shoes.png",
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_142617_glastonbury_accessories.png",
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_142617_glastonbury_bottom.png",
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_142617_glastonbury_top.png"
+    },
+    "wardrobe_references": [],
+    "created_at": "20260625_142635"
+  },
+  {
+    "id": "outfit_20260625_143423_lollapalooza",
+    "outfit_name": null,
+    "event_category": "Music & Entertainment",
+    "event": "Lollapalooza",
+    "prompt": "Casual",
+    "final_image_prompt": "Full body fashion photo of a male wearing a Street & Hype outfit for Lollapalooza.\nOutfit includes a suitable top, a suitable bottom, appropriate shoes, no outerwear if not needed, minimal accessories if needed.\nColor palette: Neutrals.\nFit: Tailored.\nPrice level: Affordable.\nThe outfit must be realistic, modern, polished, and event-appropriate.\nBackground: plain solid color or soft gradient blurred color.\nHigh-detail professional fashion photography, full body, clean composition, sharp focus.\nUser styling note: Casual",
+    "style_mode": "New Style",
+    "source": "Outside",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_143423_lollapalooza_main.png",
+    "breakdown_items": {
+      "top": "a suitable top",
+      "bottom": "a suitable bottom",
+      "shoes": "appropriate shoes",
+      "outerwear": "no outerwear if not needed",
+      "accessories": "minimal accessories if needed"
+    },
+    "breakdown_images": {
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_143423_lollapalooza_accessories.png",
+      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_143423_lollapalooza_shoes.png",
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_143423_lollapalooza_top.png",
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_143423_lollapalooza_bottom.png",
+      "composite": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_143423_lollapalooza_breakdown.png"
+    },
+    "wardrobe_references": [],
+    "created_at": "20260625_143443"
+  },
+  {
+    "id": "outfit_20260625_144341_glastonbury",
+    "outfit_name": null,
+    "event_category": "Music & Entertainment",
+    "event": "Glastonbury",
+    "prompt": "Casual",
+    "final_image_prompt": "Full body fashion photo of a male wearing a Street & Hype outfit for Glastonbury.\nOutfit includes a suitable top, a suitable bottom, appropriate shoes, no outerwear if not needed, minimal accessories if needed.\nColor palette: Neutrals.\nFit: Tailored.\nPrice level: Affordable.\nThe outfit must be realistic, modern, polished, and event-appropriate.\nBackground: plain solid color or soft gradient blurred color.\nHigh-detail professional fashion photography, full body, clean composition, sharp focus.\nUser styling note: Casual",
+    "style_mode": "New Style",
+    "source": "Outside",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_144341_glastonbury_main.png",
+    "breakdown_items": {
+      "top": "a suitable top",
+      "bottom": "a suitable bottom",
+      "shoes": "appropriate shoes",
+      "outerwear": "no outerwear if not needed",
+      "accessories": "minimal accessories if needed"
+    },
+    "breakdown_images": {
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_144341_glastonbury_accessories.png",
+      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_144341_glastonbury_shoes.png",
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_144341_glastonbury_bottom.png",
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_144341_glastonbury_top.png",
+      "composite": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_144341_glastonbury_breakdown.png"
+    },
+    "wardrobe_references": [],
+    "created_at": "20260625_144414"
+  },
+  {
+    "id": "outfit_20260625_145404_lollapalooza",
+    "outfit_name": null,
+    "event_category": "Music & Entertainment",
+    "event": "Lollapalooza",
+    "prompt": "Casual",
+    "final_image_prompt": "Full body fashion photo of a real, realistic human male model wearing a Street & Hype outfit for Lollapalooza.\nThe model must look like a real person with natural skin textures, not synthetic, not looking like typical AI-generated faces.\nThe model must have a warm, natural, and proper smile (properly smiling, showing positive emotion).\nOutfit includes a suitable top, a suitable bottom, appropriate shoes, no outerwear if not needed, minimal accessories if needed.\nColor palette: Neutrals.\nFit: Tailored.\nPrice level: Affordable.\nThe outfit must be realistic, modern, polished, and event-appropriate.\nBackground: plain solid color or soft gradient blurred color.\nHigh-detail professional fashion photography, full body, clean composition, sharp focus.\nUser styling note: Casual",
+    "style_mode": "New Style",
+    "source": "Outside",
+    "main_image_path": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_145404_lollapalooza_main.png",
+    "breakdown_items": {
+      "top": "a suitable top",
+      "bottom": "a suitable bottom",
+      "shoes": "appropriate shoes",
+      "outerwear": "no outerwear if not needed",
+      "accessories": "minimal accessories if needed"
+    },
+    "breakdown_images": {
+      "bottom": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_145404_lollapalooza_bottom.png",
+      "top": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_145404_lollapalooza_top.png",
+      "accessories": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_145404_lollapalooza_accessories.png",
+      "shoes": "C:\\Users\\Arafat Hossain Ankon\\Documents\\JVAI\\Projects\\FitForMe\\AI-Part\\outputs\\outfits\\outfit_20260625_145404_lollapalooza_shoes.png"
+    },
+    "wardrobe_references": [],
+    "created_at": "20260625_145423"
   }
 ]
